@@ -1,0 +1,9 @@
+{
+    "project_name": "Project Name",
+    "description": "A short description...",
+    "__project_slug": " {{ cookiecutter.project_name|lower|replace(' ', '-') }} ",
+
+    "_copy_without_render": [
+        "ignore_me/*"
+    ]
+}
